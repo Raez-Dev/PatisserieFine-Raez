@@ -1,0 +1,17 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+
+    p {
+        font-size: 2em;
+    }
+
+    img{
+        height: 40rem;
+        object-fit: cover;
+        object-position: center center;
+        width: calc(50vw - 5rem);
+    }
+}

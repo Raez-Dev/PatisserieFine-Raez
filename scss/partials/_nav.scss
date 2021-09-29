@@ -1,0 +1,31 @@
+.navbar {
+    background-color: $color-white; 
+    .navbar-nav {
+        align-items: center;
+    }
+    .navbar-toggler {
+        border-color: transparent;
+    }
+    .navbar-brand{
+        font-size: 3.5em;
+        h1{
+            display: inline-block;
+            font-size: 1em
+        }
+    }
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $color-brown;
+    font-size: 3.2em;
+    font-style: normal;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $color-extra-light-brown;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: $color-extra-light-brown;
+}

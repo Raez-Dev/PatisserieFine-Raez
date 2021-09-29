@@ -1,0 +1,23 @@
+/* ========================= Imports ========================= */
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;300;400;500;700;800;900&display=swap');
+@import url("../css/bootstrap.min.css");
+
+/* ============================ Variables ============================ */
+@import "./variables";
+
+/* ============================ Global ============================ */
+@import "./global";
+
+/* ============================ Utils ============================ */
+@import "./utils/utils";
+
+/* ============================ Partials ============================ */
+@import "./partials/nav";
+@import "./partials/main";
+@import "./partials/carousel";
+@import "./partials/footer";
+
+/* ============================ View ============================ */
+@import "./views/home";
+@import "./views/terms";
+@import "./views/aboutUs";

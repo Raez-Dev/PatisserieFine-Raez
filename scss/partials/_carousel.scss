@@ -1,0 +1,17 @@
+.carousel{
+    .carousel-inner{
+        .carousel-item{
+            img{
+                object-fit: cover;
+                object-position: center center;
+            }
+            h5{
+                font-size: 2.5rem;
+            }
+            p{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+

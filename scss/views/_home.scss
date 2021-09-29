@@ -1,0 +1,63 @@
+/* ============================ Custom Cards ============================ */
+/* --------------------- Cards group Classes --------------------- */
+
+.cardgroup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    h2 {
+        align-self: center;
+    }
+    ul,
+    li {
+        display: flex;
+        align-content: center;
+        padding: 0;
+        list-style: none;
+    }
+
+    li {
+        margin: 0 4rem 2rem;
+    }
+    ul {
+        flex-flow: row wrap;
+        justify-content: space-around;
+        margin-top: 2rem;
+        width: 100%;
+    }
+    &__info {
+        display: flex;
+        justify-content: center;
+        height: 40rem;
+        position: relative;
+        width: 24rem;
+        img {
+            height: 40rem;
+            object-fit: cover;
+            object-position: center center;
+            width: 25rem;
+        }
+        &__carddescription {
+            background-color: $color-brown;
+            background-image: linear-gradient(to right, $color-light-brown, $color-extra-light-brown);
+            bottom: 0;
+            color: $color-white;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1rem;
+            opacity: 74%;
+            padding: 1rem;
+            position: absolute;
+            width: 80%;
+            h3 {
+                font-size: 3em;
+            }
+            p {
+                font-size: 2.1em;
+            }
+        }
+    }
+    &__info:hover {
+        transform: rotateZ(5deg);
+    }
+}
